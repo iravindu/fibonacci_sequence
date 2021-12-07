@@ -1,11 +1,13 @@
 fibonacci = []
-n = int(input("Enter a number: "))
+
+n = int(input("Enter length of fibonacci sequence: "))
+
 for i in range(0,n):
-   #element = int(input("Enter an element : "))
-   if i==0:
+  
+   if i == 0:
       element = 0
       fibonacci.append(element)
-   elif i<=2 and i!=0:
+   elif i <= 2 and i!=0:
       element = 1
       fibonacci.append(element)
    else:
